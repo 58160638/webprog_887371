@@ -9,3 +9,11 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
+
+right {
+    float: right;
+}
+
+left {
+    float: left;
+}
