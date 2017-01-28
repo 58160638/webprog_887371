@@ -1,5 +1,5 @@
 body {
-    background-color: #F0F8FF
+    background: url(Bg01.jpg) no-repeat center fixed;
 }
 
 ul {
@@ -41,10 +41,15 @@ left a {
 table {
     background-color: white;
     text-align: center;
+    border-collapse: collapse
 }
 
-table tr td {
+table,
+tr,
+td {
     text-align: center;
+    border: 1px solid #ddd;
+    ;
 }
 
 th {
