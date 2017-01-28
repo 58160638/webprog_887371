@@ -38,6 +38,11 @@ left a {
     text-decoration: none;
 }
 
+table {
+    background-color: white;
+    text-align: center;
+}
+
 table tr td {
     text-align: center;
 }
@@ -46,8 +51,10 @@ th {
     background-color: gray;
 }
 
-td {
-    background-color: white;
+td,
+th {
+    display: table-cell;
+    vertical-align: inherit;
 }
 
 h1 {
