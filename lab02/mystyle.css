@@ -1,5 +1,5 @@
 body {
-    background: url(Bg01.jpg) no-repeat center fixed;
+    background: url(Photo/Bg01.jpg) no-repeat center fixed;
 }
 
 ul {
@@ -10,8 +10,27 @@ ul {
     background-color: #333;
 }
 
+h1 {
+    color: red;
+}
+
 .aboutme {
     background-color: #f43636;
+}
+
+div.image {
+    margin: 5px;
+    float: left;
+    width: 250px;
+}
+
+div.image img {
+    width: 100%;
+}
+
+div.Mes {
+    padding: 16px;
+    text-align: center;
 }
 
 right {
@@ -39,7 +58,7 @@ left a {
 }
 
 table {
-    background-color: skyblue;
+    background-color: white;
     text-align: center;
     border-collapse: collapse
 }
